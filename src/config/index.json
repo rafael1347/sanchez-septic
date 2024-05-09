@@ -1,25 +1,20 @@
 {
   "company": {
-    "name": "React landing page 2021",
-    "logo": "/assets/images/logo.png"
+    "name": "Sanchez Septic",
+    "logo": "/assets/images/SanchezSeptic.svg"
   },
   "navigation": [
     {
-      "name": "Product",
-      "href": "product"
+      "name": "Home",
+      "href": "/"
     },
     {
-      "name": "Features",
-      "href": "features"
-    },
-
-    {
-      "name": "Pricing",
-      "href": "pricing"
+      "name": "Septic Services",
+      "href": "SepticServices"
     },
     {
       "name": "About",
-      "href": "about"
+      "href": "About"
     }
   ],
   "callToAction": {
@@ -27,10 +22,10 @@
     "href": "#"
   },
   "mainHero": {
-    "title": "Use me as your",
-    "subtitle": "landing page.",
-    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.",
-    "img": "/assets/images/happyTeam.jpeg",
+    "title": "Sanchez Septic Services",
+    "subtitle": "Your Trusted Partner for Reliable Septic Solutions.",
+    "description": "Sanchez Septic specializes in septic tank pump outs, septic tank repairs and service, inspections, and field line repair. We are an owner-operated business and have been in business for over 5 years.",
+    "img": "/assets/images/truck.jpeg",
     "primaryAction": {
       "text": "Get started",
       "href": "#"
@@ -41,17 +36,22 @@
     }
   },
   "product": {
-    "title": "React landing page 2021",
+    "title": "Septic Tank Pumping & Repair Services",
     "items": [
       {
-        "title": "A plug n play template",
-        "description": "Just edit the config.json file with details about your company and voila your beautiful state of the art landing page is ready to go live! Remember to also update your assets, add any images you want to show to /assets/images and link them in the config.json",
-        "img": "/assets/images/product1.jpg"
+        "title": "Septic System Repairs",
+        "description": "Whether it's for your home or business, our technicians will inspect your septic system thoroughly before any work begins. Once we detect the issue, we'll explain repair or upgrade options that fit your needs and budget.",
+        "img": "/assets/images/repair.JPG"
       },
       {
-        "title": "Make it your own!",
-        "description": "Play around with the theme.ts file and configure the color palette to match the branding of your company! If you're feeling wild, maybe change some tailwind css as well!",
-        "img": "/assets/images/product2.jpg"
+        "title": "Septic System Inspection",
+        "description": "If you need your septic tank and system inspected or certified before buying or selling a home, we are here to help.",
+        "img": "/assets/images/inspection.JPEG"
+      },
+      {
+        "title": "Septic Pumping",
+        "description": "Septic pumping is one of the best things you can do for your entire septic system. Septic pumping is important and extends the life of your septic system by clearing out sludge, grime and solids that accumulate in your tank.",
+        "img": "/assets/images/pumping.JPEG"
       }
     ]
   },
@@ -124,23 +124,18 @@
   "about": {
     "sections": [
       {
-        "name": "Something",
+        "name": "Home",
         "href": "#",
         "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
       },
       {
-        "name": "Something",
+        "name": "About Us",
         "href": "#",
         "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
       },
       {
-        "name": "Something",
-        "href": "#",
-        "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
-      },
-      {
-        "name": "Something",
-        "href": "#",
+        "name": "Contact Us",
+        "href": "ContactUs",
         "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
       }
     ],
