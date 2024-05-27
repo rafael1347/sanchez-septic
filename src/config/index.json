@@ -122,6 +122,9 @@
     ]
   },
   "about": {
+    "images": {
+      "Team": "/assets/images/Team.JPEG"
+    },
     "sections": [
       {
         "name": "Home",

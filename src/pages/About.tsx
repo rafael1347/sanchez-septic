@@ -1,16 +1,21 @@
 import React from 'react';
 
 import Header from '../components/Header';
+import config from '../config/index.json';
 
 export default function About() {
+  const { about } = config;
   return (
     <div>
       <div className={`relative bg-background`}>
-        <div className="max-w-7xl mx-auto">
+        <div className="max-w-7xl">
+          <Header />
           <div
-            className={` pb-8 bg-background sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32`}
+            className={` pb-8 bg-background sm:pb-16 md:pb-20  lg:pb-28 xl:pb-32  `}
           >
-            <Header />
+            <div className="pl-8 pt-8 justify-center flex">
+              <img alt="team" src={about.images.Team} />
+            </div>
             <div className=" min-h-screen flex flex-col justify-center items-center">
               <title>About Us - Sanchez Septic Services</title>
               <meta
