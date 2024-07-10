@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-html-link-for-pages */
 import React, { Fragment } from 'react';
 
 import { Popover, Transition } from '@headlessui/react';
@@ -30,7 +31,7 @@ const Menu = () => {
           >
             <div className="flex items-center flex-grow flex-shrink-0 lg:flex-grow-0">
               <div className="flex items-center justify-between w-full md:w-auto">
-                <a href="#">
+                <a href="/">
                   <span className="sr-only">{companyName}</span>
                   <img alt="logo" className="h-16 w-auto sm:h-16" src={logo} />
                 </a>
@@ -50,12 +51,12 @@ const Menu = () => {
                   {item.name}
                 </Link>
               ))}
-              <a
+              <Link
                 href="ContactUs"
                 className={`font-medium text-[#13277c] hover:text-[#13277c]`}
               >
                 Free Estimate
-              </a>
+              </Link>
             </div>
           </nav>
         </div>
@@ -89,7 +90,7 @@ const Menu = () => {
                   </Popover.Button>
                 </div>
               </div>
-              <div className="px-2 pt-2 pb-3 space-y-1">
+              <div className="px-2 pt-2 pb-3 space-y-1 inline-grid">
                 {navigation.map((item) => (
                   <Link key={item.href} href={item.href}>
                     {item.name}

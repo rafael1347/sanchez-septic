@@ -2,9 +2,9 @@ import React from 'react';
 
 export default function ContactForm() {
   return (
-    <div className="flex-row flex justify-center">
-      <div className="bg-blue-700 p-10 rounded w-[40%] h-[55vh]">
-        <h1 className="m-1 text-[#FFFFFF] text-2xl pb-2">
+    <div className="md:flex-row flex justify-center flex-col">
+      <div className="bg-blue-700 p-10 rounded md:w-[40%] md:h-[55vh] w-[100%]">
+        <h1 className="m-1 text-[#FFFFFF] text-2xl mb-10">
           Contact Information
         </h1>
         <div className=" flex flex-row items-center">
@@ -14,7 +14,7 @@ export default function ContactForm() {
             viewBox="0 0 24 24"
             strokeWidth={1.5}
             stroke="white"
-            className="w-5 h-5 mr-2 "
+            className="w-5 h-5 mr-1 "
           >
             <path
               strokeLinecap="round"
@@ -23,7 +23,7 @@ export default function ContactForm() {
             />
           </svg>
 
-          <p className="m-1 text-[#FFFFFF]">123-456-4231</p>
+          <p className="m-2 text-[#FFFFFF]">123-456-4231</p>
         </div>
         <div className="flex flex-row items-center ">
           <svg
@@ -43,9 +43,31 @@ export default function ContactForm() {
 
           <p className="text-[#FFFFFF]">sanchez@gmail.com</p>
         </div>
-        <p className="m-1 text-[#FFFFFF]">
-          123 dawson st, Dawsonville, Georgia
-        </p>
+        <div className="flex flex-row items-center ">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            strokeWidth={1.5}
+            stroke="white"
+            className="w-5 h-5 mr-1"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"
+            />
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"
+            />
+          </svg>
+
+          <p className="m-1 text-[#FFFFFF]">
+            123 dawson st, Dawsonville, Georgia
+          </p>
+        </div>
       </div>
       <form className="ml-4">
         <div className="relative z-0 w-full mb-5 group">
